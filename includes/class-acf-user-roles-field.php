@@ -93,15 +93,15 @@ class acf_user_roles_field extends \acf_field {
 		if ($field) {
 			$user_roles = self::get_user_roles();
 			array_unshift($user_roles, '');
-			
 			$multiple_attr = $field['multiple'] ? ' multiple' : '';
-
+			$value = is_array($field['value']) ? $field['value'] : [];
+			
 			echo '<select class="acf-user-roles-field-select" name="' . esc_attr($field['name']) . '[]"' . $multiple_attr . '>';
 
 			foreach ($user_roles as $user_role) {
 				$selected = '';
 
-				if (in_array($user_role, $field['value'])) {
+				if (in_array($user_role, $value)) {
 					$selected = ' selected';
 				}
 
