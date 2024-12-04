@@ -5,7 +5,7 @@
  * Description: Adds a new ACF field allowing to select user roles.
  * Text Domain: acf-user-roles-field
  * Author: Misaki F.
- * Version: 1.0.2
+ * Version: 1.0.3
  */
 
 namespace AcfUserRolesField;
