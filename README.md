@@ -96,7 +96,7 @@ add_filter('acf_user_roles_field_html', 'user_roles_in_ordered_list', 10, 3);
 ## License
 
 ACF User Roles Field: Wordpress plugin adding a new ACF field to select user roles  
-Copyright (C) 2023  Misaki F.
+Copyright (C) 2023-2024  Misaki F.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
